@@ -27,7 +27,7 @@ pipeline {
                 if (currentBuild.result == 'FAILURE') {
                     echo 'pipeline failed'
                 }
-            }
+            
         }
     }
 }
